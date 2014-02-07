@@ -16,10 +16,6 @@
 
 package org.rapidpm.demo.jaxenter.blog0011.dynamicdecorator;
 
-//import org.rapidpm.commons.cdi.logger.CDILogger;
-//import org.rapidpm.module.se.commons.logger.Logger;
-
-//import javax.inject.Inject;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -31,7 +27,6 @@ import java.util.Map;
  */
 public class CDIInvocationHandler implements InvocationHandler {
 
-    //@Inject @CDILogger Logger logger;
 
     private Map<MethodIdentifier, Method> adaptedMethods = new HashMap<>();
 
